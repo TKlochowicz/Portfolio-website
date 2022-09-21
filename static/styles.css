@@ -68,5 +68,14 @@
 }
 /* Skills */
 .carousel-item{
-    padding: 8% 7% ;
+    padding: 0% 7% ;
+}
+.carousel-title{
+    margin-bottom: 5%;
+}
+
+.car-img{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 3%;
 }
