@@ -79,3 +79,6 @@
     width: 50%;
     margin-bottom: 3%;
 }
+.git-but:hover{
+    text-decoration: none;
+}
