@@ -1,7 +1,12 @@
 /* Top of the page */
 #top{
     background-color: rgb(13, 96, 165);
-    padding: 15% 5%;
+    padding:6% 5%;
     color: rgb(253, 253, 253);
     text-align: center;
+}
+.face-photo{
+    border-radius: 100%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 3%;
 }
