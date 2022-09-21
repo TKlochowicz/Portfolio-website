@@ -17,7 +17,7 @@
 
 .white{
     background-color: rgb(253, 253, 253);
-    padding:5% 5% 2%;
+    padding:3% 10% 2%;
     color: rgb(13, 96, 165);
     text-align: center;
 }
@@ -37,4 +37,32 @@
 .stitle{
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+/* About me */
+.about-icon{
+    padding-top: 0%;
+    font-size: 1000%;
+
+}
+.about-text{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
+
+.about-subtext{
+    opacity: 80%;
+    font-size: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 500;
+}
+
+.about-icon1{
+    padding-top: 5.5%;
+    font-size: 1000%;
+}
+
+.phi{
+    padding-bottom: 5.5%;
+
 }
