@@ -67,6 +67,6 @@
 
 }
 /* Skills */
-#skills{
-    padding:3% 25% 2%;
+.carousel-item{
+    padding: 8% 7% ;
 }
