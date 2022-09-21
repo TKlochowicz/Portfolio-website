@@ -10,13 +10,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="{{ url_for('static', filename='styles.css')}}" rel="stylesheet">
+    <!-- Font Awsome script -->
+    <script src="https://kit.fontawesome.com/522e9f6110.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="row", id="top"> <div class="col">
+     <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">My projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row colored"> <div class="col">
         <img src="static/face.jpg" class="face-photo">
         <h1 class="title-text">Hi, I am Tom</h1>
         <h3 class="subtitle-text">Welcome to my portfolio website</h3>
+        <h3><i class="fa-solid fa-chevron-down"></i></h3>
     </div></div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
