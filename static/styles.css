@@ -11,7 +11,6 @@
     color: rgb(253, 253, 253);
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 700;
     font-stretch: 110%;
 }
 
@@ -66,7 +65,7 @@
     padding-bottom: 5.5%;
 
 }
-/* Skills */
+/* Projects */
 .carousel-item{
     padding: 0% 7% ;
 }
@@ -79,6 +78,29 @@
     width: 50%;
     margin-bottom: 3%;
 }
+.git-but{
+    text-decoration: inherit;
+    color: inherit;
+}
 .git-but:hover{
-    text-decoration: none;
+    text-decoration: inherit;
+    color: inherit;
+}
+/* Projects list */
+.projects-title{
+    padding: 5% 2% 0%;
+}
+.project-column{
+    padding: 2% 2% 5%;
+}
+/* Contact */
+.contact{
+    text-align: left;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+/* Footer */
+.footer{
+    padding-top: 2%;
 }

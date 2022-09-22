@@ -27,7 +27,7 @@ def addProject():
 
 @app.route('/')
 def home():
-    projects = []
+    projects = Project.query.all()
     return render_template('index.html', projects= projects)
 
 if __name__ =='__main__':
