@@ -19,8 +19,8 @@ class Project(db.Model):
 
 def addProject():
     name = input("Name:")
-    git_url = input("Name:")
-    description = input("Name:")
+    git_url = input("Git URL:")
+    description = input("Description:")
     new_project = Project(name=name,git_url=git_url, description=description)
     db.session.add(new_project)
     db.session.commit()
