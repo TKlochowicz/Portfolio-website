@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tomasz Klochowicz</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='styles.css')}}" rel="stylesheet">
+    <!-- Font Awsome script -->
+    <script src="https://kit.fontawesome.com/522e9f6110.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"> </i> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home"> Home</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills1">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">My projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Welcome page -->
+  <div class="row colored" id="home"> <div class="col">
+        <img src="static/face.jpg" class="face-photo">
+        <h1 class="title">Hi, I am Tom</h1>
+        <h3 class="stitle">Welcome to my portfolio website</h3>
+        <h3><i class="fa-solid fa-chevron-down"></i></h3>
+    </div></div>
+
+<!-- About me -->
+    <section id="about-me" class="white"> 
+    <div class="row">
+        <div class="col-lg-4">
+            <h1 class="about-icon1">&#9822;</h1>
+            <h3 class="about-text">Logic</h3>
+            <p class="about-subtext"> I graduated from the Master of Logic at the University of Amsterdam</p>
+        </div>
+        <div class="col-lg-4">
+            <h1 class="about-icon1">	&#128435;</h1>
+            <h3 class="about-text">AI & Computer Science</h3>
+            <p class="about-subtext"> I completed multiple courses in programming and I was a TA at an AI Game Theory course.</p>
+        </div>
+        <div class="col-lg-4">
+            <h1 class="about-icon phi">&phi;</h1>
+            <h3 class="about-text">Philosophy</h3>
+            <p class="about-subtext"> I hold a Bachelor in Philosophy from the University of Warsaw. Philosophy is still my passion.</p>
+        </div>
+    </div>
+    </section>
+>
+
+<!-- My projects carousel -->
+
+<section id="skills1", class="colored">
+
+        <div id="carouselskills" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1 class="carousel-title">Converting strings to morse code</h1>
+              <img src="static/morse_code.jpg" class="car-img">
+              <br>
+              <a href="https://github.com/TKlochowicz/Morse-code-converter" class="but-git"><button class="btn-outline-secondary btn-lg but-git"> <i class="fa-brands fa-github"></i> GIT HUB</button></a>
+
+            </div>
+            <div class="carousel-item">
+                <h1 class="carousel-title">The Breakout Game</h1>
+                <img src="static/breakout.png" class="car-img">
+                <br>
+                <a href="https://github.com/TKlochowicz/Morse-code-converter" class="but-git"><button class="btn-outline-secondary btn-lg but-git"><i class="fa-brands fa-github"></i> GIT HUB</button></a>
+            </div>
+            <div class="carousel-item">
+                <h1 class="carousel-title">Theorem prover for peer-grading (co-authored)</h1>
+                <img src="static/morse_code.jpg" class="car-img">
+                <br>
+                <a href="https://github.com/TKlochowicz/Morse-code-converter" class="but-git"><button class="btn-outline-secondary btn-lg"><i class="fa-brands fa-github"></i> GIT HUB</button></a>
+            </div>
+            
+          </div>
+          <a class="carousel-control-prev" href="#carouselskills" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselskills" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>    
+ 
+    
+
+</section>
+
+<!-- Skils -->
+<section id="skills" class="white" >
+</div>
+<div class="row">
+    <div class="col-lg-3 col-sm-6">
+        <h3 class="skills-icon"><i class="fa-brands fa-python"></i></h3>
+        <p class="skills-label">Python</p>
+        <p><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i></p>
+
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <h3 class="skills-icon"><i class="fa-solid fa-globe"></i></h3>
+        <p class="skills-label">Web Development</p>
+        <p><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle"></i></p>
+        
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <h3 class="skills-icon"><i class="fa-solid fa-database"></i></h3>
+        <p class="skills-label">SQL</p>
+        <p><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle"></i><i class="fa-regular fa-circle"></i></p>
+        
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <h3 class="skills-icon"><i class="fa-brands fa-google"></i></h3>
+        <p class="skills-label">SEO</p>
+        <p><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle-dot"></i><i class="fa-regular fa-circle"></i><i class="fa-regular fa-circle"></i></p>
+        
+    </div>
+
+  </div>
+</section>
+
+  <!-- Links to Projects -->
+  <div class="row colored projects-title" id="projects"> 
+    <div class="col-12">
+      <h1>Complete list of my projects:</h1> 
+    </div>
+  </div>
+  <div class="row colored"> 
+    {%for project in projects%}
+    <div class="col-lg-4 project-column">
+      <h5 class="project-title"><a href="{{project.git_url}}" class="git-but">{{project.name}}:</h5> <p>{{project.description}}</p> </a>
+    </div>
+    {%endfor%}
+    
+  </div>
+
+  
+  <!-- Contact -->
+  <div class="row white" class="contact" id="contact"> 
+
+    <div class="col-lg-6">
+      <p style="font-weight:700;">Contact details:</p>
+      <p>+48 505 803 027</p>
+      <p>klochowicztomasz@gmail.com</p>
+      <p><a href="https://github.com/TKlochowicz">Git Hub: TKlochowicz</p></a>
+    </div>
+    <div class="col-lg-6">
+      <p style="font-weight:700;">Where to find me:</p>
+      <p>Warsaw, Poland</p>
+      <p>Amsterdam, The Netherlands</p>
+      <p>Remote: All around the world ;)</p>
+
+
+    </div>
+  
+  </div>
+  <div class="row white footer">
+
+    <div class="col">
+      <p>&copy Copyrights: Tomasz Klochowicz 2022</p>
+    </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
