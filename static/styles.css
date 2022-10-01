@@ -75,8 +75,9 @@
 
 .car-img{
     height: 50%;
-    width: 50%;
+    width: auto;
     margin-bottom: 3%;
+    max-height: 550px;
 }
 .git-but{
     text-decoration: inherit;
